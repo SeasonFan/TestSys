@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_60">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/J/hibernate3.jar/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/J/hibernate3.jar/cglib-nodep-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/J/hibernate3.jar/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/J/hibernate3.jar/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="D:/J/hibernate3.jar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/J/hibernate3.jar/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/J/hibernate3.jar/mysql-connector-java-5.1.28-bin.jar"/>
+	<classpathentry kind="lib" path="D:/J/commons-fileupload-1.3.1-bin/lib/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/J/commons-io-1.3.2.jar/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/J/hibernate3.jar/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/J/hibernate3.jar/org.apache.commons.httpclient.jar"/>
+	<classpathentry kind="lib" path="D:/J/hibernate3.jar/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/J/hibernate3.jar/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/J/hibernate3.jar/hibernate3.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="mock.model.Paraandresult" table="paraandresult" lazy="true">  
+    <id name="ID">  
+     <generator class="identity"/>  
+    </id>  
+        <property name="Para"/>
+        <property name="Result"/>
+        <property name="ApiID"/>
+         <property name="IP"/>
+        <property name="CreatedTime"/> 
+        <property name="LastModify"/> 
+        <property name="Enable"/> 
+        <property name="Remark"/>  
+        
+        <property name="Callbackurl"/>
+        <property name="IsCallback"/> 
+        <property name="CallbackHost"/> 
+        <property name="CallbackNums"/> 
+        <property name="CallbackDelayTimes"/> 
+        <property name="CallbackRequestType"/>
+        
+    </class> 
+</hibernate-mapping>

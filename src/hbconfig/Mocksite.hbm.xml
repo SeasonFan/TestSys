@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="mock.model.Mocksite" table="mocksite" lazy="true">  
+    <id name="ID">  
+     <generator class="identity"/>  
+    </id>  
+        <property name="SiteName"/>
+        <property name="PID"/>
+        <property name="CreatedTime"/> 
+        <property name="LastModify"/> 
+        <property name="Enable"/> 
+        <property name="Remark"/>  
+    </class> 
+</hibernate-mapping>
